@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Center the text vertically */
+}
+
+p {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: bold;
+    text-align: justify;
+    background: url('photo.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.07);
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    @media (max-width: 768px) {
+        font-size: 16px;
+        line-height: 18px;
+    }
+}
+
+
